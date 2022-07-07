@@ -1,55 +1,9 @@
-.container {
-    header {
-        background-color: #5F8DD2;
-        color: #D6DBDC;
-        text-align: center;
-        padding: 10px 0px 0px;
-        border-radius: 10px;
-    }
+@import "./header";
 
-    article {
-        min-height: 100px;
-        text-align: center;
-        justify-content: center;
-    }
+@import "./article";
 
-    aside {
-        background-color: darkslategrey;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100px;
-        border-radius: 10px;
-    }
+@import "./aside";
 
-    .widget-1 , .widget-2{
-        background-color: #5F8DD2;
-        color: #D6DBDC;
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 10px;
-    }
+@import "./widgets";
 
-    footer {
-        ul {
-            display: flex;
-            background-color: #1B2F46;
-            justify-content: space-between;
-            list-style-type: none;
-            padding: 10px;
-            margin: 0;
-            border-radius: 10px;
-
-            li{
-                &:hover{
-                    background-color: #D6DBDC;
-                    font-weight: 700;
-                    border-radius: 10px;
-                }
-            }
-        }
-    }
-}
+@import "./footer";

@@ -1,16 +1,18 @@
-.container header {
+header {
   background-color: #5F8DD2;
   color: #D6DBDC;
   text-align: center;
   padding: 10px 0px 0px;
   border-radius: 10px;
 }
-.container article {
+
+article {
   min-height: 100px;
   text-align: center;
   justify-content: center;
 }
-.container aside {
+
+aside {
   background-color: darkslategrey;
   text-align: center;
   display: flex;
@@ -19,7 +21,8 @@
   min-height: 100px;
   border-radius: 10px;
 }
-.container .widget-1, .container .widget-2 {
+
+.widget-1, .widget-2 {
   background-color: #5F8DD2;
   color: #D6DBDC;
   height: 100px;
@@ -28,7 +31,8 @@
   justify-content: center;
   border-radius: 10px;
 }
-.container footer ul {
+
+footer ul {
   display: flex;
   background-color: #1B2F46;
   justify-content: space-between;
@@ -37,7 +41,7 @@
   margin: 0;
   border-radius: 10px;
 }
-.container footer ul li:hover {
+footer ul li:hover {
   background-color: #D6DBDC;
   font-weight: 700;
   border-radius: 10px;
