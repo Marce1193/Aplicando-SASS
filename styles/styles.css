@@ -32,19 +32,31 @@ aside {
   border-radius: 10px;
 }
 
-footer ul {
-  display: flex;
-  background-color: #1B2F46;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 10px;
-  margin: 0;
+.footer {
+  background-color: #273b64;
   border-radius: 10px;
+  padding: 5px;
 }
-footer ul li:hover {
-  background-color: #D6DBDC;
-  font-weight: 700;
+.footer .btn-instagram {
+  color: #D6DBDC;
+  border: 0;
+  padding: 5px;
   border-radius: 10px;
+  background-color: #55acee;
+}
+.footer .btn-facebook {
+  color: #D6DBDC;
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #3a5795;
+}
+.footer .btn-twitter {
+  color: #D6DBDC;
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #c25e30;
 }
 
 /*# sourceMappingURL=styles.css.map */

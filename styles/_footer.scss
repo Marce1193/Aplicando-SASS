@@ -1,19 +1,26 @@
-footer {
-    ul {
-        display: flex;
-        background-color: #1B2F46;
-        justify-content: space-between;
-        list-style-type: none;
-        padding: 10px;
-        margin: 0;
-        border-radius: 10px;
 
-        li{
-            &:hover{
-                background-color: #D6DBDC;
-                font-weight: 700;
-                border-radius: 10px;
-            }
-        }
+$redes: (
+    instagram:#55acee,
+    facebook:#3a5795,
+    twitter:#c25e30
+);
+
+@mixin textColor ($textColor) {
+    color: $textColor;
+}
+
+.footer {
+    background-color: #273b64;
+    border-radius: 10px;
+    padding: 5px;
+
+@each $red, $color in $redes {
+    .btn-#{$red} {
+        @include textColor(#D6DBDC);
+        border: 0;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: $color;
     }
+}
 }
